@@ -5,7 +5,7 @@ barcon.addEventListener('click',()=>{
    console.log("click")
     if (bar.style.display=='block') {
         bar.style.display='none';
-         barcon.style.color="black"
+         barcon.style.color="white"
     }
     else{
         bar.style.display='block'

@@ -1,4 +1,13 @@
+body{
+   color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
 
+}
+#background{
+    background-image: linear-gradient( to left top, #000024,#210979,#0086ff);
+    height: 50vh;
+}
 .Download{
     text-decoration: none;
     background-color: aqua;
