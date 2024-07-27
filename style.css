@@ -6,3 +6,9 @@
     padding: 8px;
     border-radius: 5px;
 }
+.fa-bars {
+    z-index: 99;
+}
+#bar{
+    display: none;
+}
