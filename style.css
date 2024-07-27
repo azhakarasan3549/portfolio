@@ -1,11 +1,8 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.navblock{
+
+.Download{
+    text-decoration: none;
     background-color: aqua;
-    height: 80vh;
-    width: 90%;
-    
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
 }
