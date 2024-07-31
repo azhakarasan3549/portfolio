@@ -9,6 +9,8 @@ barcon.addEventListener('click',()=>{
     }
     else{
         bar.style.display='block'
+        //  bar.style.transitionDuration='10s'
+        // bar.style.translate='0px'
          barcon.style.color="white"
     }
 })
