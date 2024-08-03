@@ -140,7 +140,7 @@ body{
  }
  @media  (max-width:576px){
     #conbtn{
-       
+        bottom: 40px;
     }
     #man{
         display: none;
