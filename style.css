@@ -82,11 +82,6 @@ body{
     overflow: hidden;
     z-index: -1;
 }
-@media  (max-width:576px) {
-    #background{
-        min-height: 60vh;
-    }
-}
 #pie{
     position:absolute;
     width: 500px;
@@ -97,12 +92,6 @@ body{
     z-index: -5;
     color: #FB773C;
    
-}
-@media  (max-width:576px){
-    #pie{
-        left: 45%;
-        z-index: 1;
-    }
 }
 #man{
     position:absolute;
@@ -117,23 +106,16 @@ body{
 #man:hover{
     transform: scale(2.3);
 }
-@media  (max-width:576px){
-    #man{
-        display: none;
-    }
-}
  .waves{
     z-index: -5;
     position: absolute;
     bottom: -1px;
  }
-
  #conbtn{
     position: absolute;
-    /* background-color: #e48108; */
-    /* z-index: 99; */
+   z-index: 5;
     display: flex;
-    left: -10px;
+    top: 70%;
  }
  #conbtn > span{
     width: 50px;
@@ -143,7 +125,7 @@ body{
     justify-content: center;
     font-size: 20px;
     border-radius: 50%;
-    background-color: #5f0387;
+    background-color: #FB773C;
     margin-left: 30px;
     transition-duration: 1s;
  }
@@ -152,11 +134,21 @@ body{
     padding: 4px;
  }
  #conbtn > span:hover{
-    background-color: #FB773C;
+    background-image: radial-gradient(#ffffff5b,#FB773C, #f85307, #f50800);
+    border:1px solid white;
  }
  @media  (max-width:576px){
-    #conbtn>span{
-        background-color: #FB773C;
-        margin-top: 40px; 
+    #conbtn{
+       
+    }
+    #man{
+        display: none;
+    }
+    #pie{
+        left: 45%;
+        z-index: 1;
+    }
+    #background{
+        min-height: 60vh;
     }
  }
