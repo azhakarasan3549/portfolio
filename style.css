@@ -115,7 +115,8 @@ body{
     position: absolute;
    z-index: 5;
     display: flex;
-    top: 70%;
+    bottom: -5px;
+    /* top: 70%; */
  }
  #conbtn > span{
     width: 50px;
