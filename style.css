@@ -60,8 +60,10 @@ body{
    background: linear-gradient(to right bottom rgba(21, 21, 21, 0.4),rgba(12, 12, 12, 0.2));
    backdrop-filter: blur(10px);
    border-radius: 5px;
+   display: none;
 }
 #bar>ul{
+   
     margin: 0px;
     padding: 0px;
 }
