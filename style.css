@@ -161,8 +161,8 @@ body{
         display: none;
     }
     #pie{
-        left: -7%;
-        bottom: -80;
+        right:50%;
+        bottom: -80px;
         z-index: 1;
     }
     #background{
