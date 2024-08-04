@@ -53,17 +53,19 @@ body{
    flex-direction: column;
    right: 10px;
    margin-top: 20px;
+   width: 120px;
+   display: flex;
+   flex-direction: column;
+   background-color: rgba(30, 28, 28, 0.263);
+   background: linear-gradient(to right bottom rgba(21, 21, 21, 0.4),rgba(12, 12, 12, 0.2));
+   backdrop-filter: blur(10px);
+   border-radius: 5px;
 }
 #bar>ul{
-    width: 120px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(30, 28, 28, 0.263);
-    background: linear-gradient(to right bottom rgba(21, 21, 21, 0.4),rgba(12, 12, 12, 0.2));
-    backdrop-filter: blur(10px);
+   
     margin: 0px;
     padding: 0px;
-    border-radius: 5px;
+    
     /* align-items: end; */
     /* justify-content: end; */
 }
