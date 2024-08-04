@@ -12,8 +12,8 @@ barcon.addEventListener('click',()=>{
          barcon.style.color="white"
     }
 })
-fullbody.addEventListener('click',()=>{
-    const background=document.getElementById('fullbody')
+background.addEventListener('click',()=>{
+    const background=document.getElementById('background')
         bar.style.display='none';
 })
   
