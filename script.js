@@ -12,11 +12,8 @@ barcon.addEventListener('click',()=>{
          barcon.style.color="white"
     }
 })
-backg.addEventListener('click',()=>{
-    const background=document.getElementById('background')
-     bar= document.getElementById('bar');
-    if (bar.style.display=='block') {
+fullbody.addEventListener('click',()=>{
+    const background=document.getElementById('fullbody')
         bar.style.display='none';
-    }
 })
   
