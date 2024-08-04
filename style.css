@@ -62,12 +62,8 @@ body{
    border-radius: 5px;
 }
 #bar>ul{
-   
     margin: 0px;
     padding: 0px;
-    
-    /* align-items: end; */
-    /* justify-content: end; */
 }
 #bar>ul>li{
     list-style-type:none ;
