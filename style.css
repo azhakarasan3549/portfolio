@@ -59,10 +59,11 @@ body{
    background: linear-gradient(to right bottom rgba(21, 21, 21, 0.4),rgba(12, 12, 12, 0.2));
    backdrop-filter: blur(10px);
    border-radius: 5px;
-   display: none;
+}
+#bar{
+    display: none;
 }
 #bar>ul{
-   
     margin: 0px;
     padding: 0px;
 }
@@ -113,6 +114,8 @@ body{
     height: 500px;
     bottom: -40px;
     left: 10%;
+    margin: 0px;
+    padding: 0px;
     /* right: 0%; */
     z-index: -5;
     color: #FB773C;
@@ -137,7 +140,7 @@ body{
  }
  #conbtn{
     position: absolute;
-   z-index: 99;
+    z-index: 99;
     display: flex;
     bottom: -5px;
     /* top: 70%; */
