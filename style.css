@@ -91,7 +91,6 @@ body{
  #nav1>li>a:hover{
     color:#FB773C;
  }
-
 /* nav bar end here */
 #background{
     background-color: #000000;
@@ -102,7 +101,7 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 400px;
     width: 100%;
     position:absolute;
     overflow: hidden;
@@ -170,7 +169,7 @@ body{
  }
  @media  (max-width:576px){
     #navhead{
-        margin-top: 20%;
+        margin-top: 10%;
      }
     #conbtn{
         bottom:12%;
@@ -182,8 +181,5 @@ body{
         left: -15%;
         bottom: -50px;
         z-index: 1;
-    }
-    #background{
-        min-height: 60vh;
     }
  }
