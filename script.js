@@ -1,5 +1,3 @@
-var bar= document.getElementById('bar')
-bar.style.display='none';
 barcon.addEventListener('click',()=>{
     var bar= document.getElementById('bar')
     const barcon= document.getElementById('barcon')

@@ -51,7 +51,7 @@ body{
    position: absolute;
    flex-direction: column;
    right: 10px;
-   margin-top: 20px;
+   margin-top: 10px;
    width: 120px;
    display: flex;
    flex-direction: column;
@@ -74,10 +74,6 @@ body{
 #bar > ul >li>a{
     color: white;
     transition-duration: 0.5s;
-}
-#bar > ul >li>a:hover{
-    /* background-color: aquamarine; */
-    color:#FB773C;
 }
 #nav1{
     z-index: 99;
@@ -133,6 +129,7 @@ body{
     transform: scale(2.3);
 }
  .waves{
+    width: 100%;
     z-index: -5;
     position: absolute;
     bottom: -1px;
@@ -182,4 +179,5 @@ body{
         bottom: -50px;
         z-index: 1;
     }
+   
  }
