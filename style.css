@@ -48,7 +48,6 @@ body{
     cursor: pointer;
 }
 #bar{
-    display: none;
    position: absolute;
    flex-direction: column;
    right: 10px;
@@ -177,7 +176,7 @@ body{
         display: none;
     }
     #pie{
-        left: -10%;
+        left: -15%;
         bottom: -50px;
         z-index: 1;
     }
