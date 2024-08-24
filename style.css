@@ -138,7 +138,7 @@ body{
     position: absolute;
     z-index: 99;
     display: flex;
-    top: 45%;
+    top: 75%;
  }
  #conbtn > span{
     width: 50px;
@@ -165,6 +165,7 @@ body{
     z-index: 99;
     /* width: 00px; */
     height: 345px;
+    position: relative;
     /* background-color: #4527A0; */
  }
  @media  (max-width:576px){
@@ -182,6 +183,7 @@ body{
         bottom: -50px;
         z-index: 1;
     }  
+   
  }
  /* landing page end here  */
  #Skill{
@@ -195,22 +197,4 @@ body{
     background-image: linear-gradient(to top left,#2C79E5, #4527A0);
     border-radius: 20px;
     height: 300px; 
- }
- #Skill>div{
-    height: 10px;
-    background-color: #FB773C;
-    border-radius: 55px;
-    margin-top: 2px;
-    width: 80%;
- }
-
- .per{
-    /* margin: 10px; */
-   position: absolute;
-   right: 15%;
-   top: 62px;
- }
- #skill>p{
-    margin-top: 50px;
-    background-color: rgb(141, 28, 60);
  }
