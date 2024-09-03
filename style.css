@@ -117,19 +117,6 @@ body{
     z-index: -5;
     color: #FB773C;
 }
-#man{
-    position:absolute;
-    width: 200px;
-    height:200px;
-    right: 80px;
-    bottom: 50px;
-    transition-duration: 1s;
-    transform: scale(2);
-    /* transform: rotateX(250deg); */
-}
-#man:hover{
-    transform: scale(2.3);
-}
  .waves{
     width: 100%;
     z-index: -5;
@@ -169,25 +156,19 @@ body{
  }
  .image{
     position: absolute;
-    top: 30%;
-    width: 200px;
+    top: 10%;
+    width: 300px;
     overflow: hidden;
-    right: 0;
+    right: 0%;
     z-index: 99;
     }
- .image>img{
-    position: absolute;
-    
- }
+
  @media  (max-width:576px){
     #navhead{
         margin-top: 10%;
      }
     #conbtn{
         bottom:12%;
-    }
-    #man{
-        display: none;
     }
     #pie{
         /* left: -15%; */
@@ -196,7 +177,10 @@ body{
         bottom: -50px;
         z-index: 1;
     }  
-   
+    .image{
+        top: 30%;
+        width: 200px;
+    }
  }
  /* landing page end here  */
  #Skill{
