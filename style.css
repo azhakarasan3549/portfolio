@@ -150,6 +150,13 @@ body{
     height: 345px;
     position: relative;
  }
+.headtext>h3{
+/* background-color: #0866E4; */
+color: #f85307;
+}
+.headtext>h2::first-letter{
+color: #f85307;
+}
  .image{
     position: absolute;
     top: 10%;
@@ -209,7 +216,7 @@ body{
 #Skill>div> h6{
     color: #402575;
     font-size: 0.8rem;
-    font-weight: bolder;
+    font-weight: 1000;
     margin-left: 35%;
     margin-bottom: 2px;
 }
@@ -225,8 +232,9 @@ body{
 #Education{
     height: 100px;
    background-color: #ff914d67;
-    height: 150px; 
+    height: 265px; 
  }
- #Education>div>h3{
+ #Education>h3{
     color: #ff914d;
  }
+ #Education>div>
