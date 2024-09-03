@@ -36,13 +36,11 @@ body{
 .Download:hover {
     padding-right: 20px;
     transition-duration: 1s;
-    /* transform: scale(1.1); */
 }
 .Download:hover  #btn-arr{
     animation-name: btn;
     opacity: 1;
    transform: translateY(2px);
-   /* animation-iteration-count: infinite; */
 }
 .fa-bars {
     z-index: 98;
@@ -83,7 +81,6 @@ body{
     color: white;
     transition-duration: 0.7s;
     text-decoration: none;
-    /* background-color: #FB773C; */
  }
  #nav1>li>a:hover{
     color:#FB773C;
@@ -113,7 +110,6 @@ body{
     left: 10%;
     margin: 0px;
     padding: 0px;
-    /* right: 0%; */
     z-index: -5;
     color: #FB773C;
 }
@@ -171,7 +167,7 @@ body{
         bottom:12%;
     }
     #pie{
-        /* left: -15%; */
+        transform: scale(0.9);
         left: auto;
         right: -100%;
         bottom: -50px;
@@ -184,16 +180,13 @@ body{
  }
  /* landing page end here  */
  #Skill{
-    /* background-image: linear-gradient(to top left,#2C79E5, #4527A0); */
     background-color: #4025754f;
-    /* border-radius: 20px; */
     height: 265px;
     position: relative;
     padding-left: 30px;
  }
 .star{
     /* background-image: linear-gradient(to top left,#fffeff, #2d0d8c); */
-    /* background-color: white; */
     height: 25px;
     margin-left: 40%;
     width: 50%;
@@ -201,12 +194,9 @@ body{
     border-radius: 20px;
 }
 .star>i{
-    /* margin-left: 5px; */
-    /* background-color: #FB773C; */
     font-size: 0.8rem;
     width: 25px;
     display: flex;
-    /* flex-direction: row; */
     align-items:center;
     justify-content: end;
 }
@@ -221,19 +211,13 @@ body{
     font-size: 0.8rem;
     font-weight: bolder;
     margin-left: 35%;
-    /* margin-top: 5px; */
     margin-bottom: 2px;
-    /* background-color: #FB773C; */
 }
 #Skill>div> h5{
     font-family: "Protest Guerrilla", sans-serif;
-    /* background-color: aqua; */
     letter-spacing: 10px;
     position: absolute;
     transform: rotate(270deg);
-    /* left: -25%; */
-    /* margin-right:100%; */
-    /* margin-bottom: 100%; */
     font-size: 5rem;
     top: 30%;
     color: #40257544;
