@@ -5,6 +5,7 @@ body{
    box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .Download{
@@ -102,6 +103,7 @@ body{
     position:absolute;
     overflow: hidden;
     z-index: -1;
+    
 }
 #pie{
     position:absolute;
@@ -202,9 +204,10 @@ body{
  }
  /* landing page end here  */
  #Skill{
-    background-image: linear-gradient(to top left,#2C79E5, #4527A0);
+    /* background-image: linear-gradient(to top left,#2C79E5, #4527A0); */
+    background-color: #4025754f;
     /* border-radius: 20px; */
-    height: 360px;
+    height: 460px;
     position: relative;
     padding-left: 30px;
  }
@@ -226,6 +229,7 @@ body{
 .star>i{
     /* margin-left: 5px; */
     /* background-color: #FB773C; */
+    font-size: 1.2rem;
     width: 25px;
     display: flex;
     /* flex-direction: row; */
@@ -235,9 +239,28 @@ body{
 .star>i:nth-child(-n+4){
     color: #FB773C;
 }
+#Skill>div{
+    margin-top: 50px;
+}
 #Skill>div> h6{
-    margin-left: 15%;
-    margin-top: 9px;
+    color: #402575;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 35%;
+    margin-top: 5px;
     margin-bottom: 2px;
     /* background-color: #FB773C; */
+}
+#Skill>div> h5{
+    font-family: "Protest Guerrilla", sans-serif;
+    /* background-color: aqua; */
+    letter-spacing: 10px;
+    position: absolute;
+    transform: rotate(270deg);
+    /* left: -25%; */
+    /* margin-right:100%; */
+    /* margin-bottom: 100%; */
+    font-size: 5rem;
+    top: 30%;
+    color: #40257544;
 }
