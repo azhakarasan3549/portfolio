@@ -250,4 +250,11 @@ color: #f85307;
     color: #402575b4;
     margin-left: 12px;
  }
+ /* @media  (min-width:1400px){
+    #Skill>div> h5{
+        position: absolute;
+        end:100%;
+        !important;
+    }
+ } */
  
