@@ -104,6 +104,7 @@ body{
 }
 #pie{
     position:absolute;
+    top: 0px;
     width: 900px;
     height: 500px;
     bottom: -40px;
@@ -175,6 +176,7 @@ color: #f85307;
     }
     #pie{
         transform: scale(0.9);
+        top: auto;
         left: auto;
         right: -100%;
         bottom: -50px;
@@ -191,6 +193,7 @@ color: #f85307;
     height: 265px;
     position: relative;
     padding-left: 30px;
+    border: 2px solid white;
  }
 .star{
     /* background-image: linear-gradient(to top left,#fffeff, #2d0d8c); */
@@ -230,11 +233,21 @@ color: #f85307;
     color: #40257544;
 }
 #Education{
-    height: 100px;
-   background-color: #ff914d67;
+ border: 2px solid white;
+   background-color: #ff914d3a;
     height: 265px; 
  }
  #Education>h3{
     color: #ff914d;
+    margin-top: 8px;
  }
- #Education>div>
+ #Education>div>h6:first-child{
+    color: #280f5a;
+    margin-left: 8px;
+    margin-top: 20px;
+ }
+ #Education>div>h6:nth-child(n+2){
+    color: #402575b4;
+    margin-left: 12px;
+ }
+ 
