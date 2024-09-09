@@ -5,11 +5,11 @@ barcon.addEventListener('click',()=>{
    console.log("click")
     if (bar.style.display=='block') {
         bar.style.display='none';
-         barcon.style.color="white";
+         barcon.style.color=" #f85307";
     }
     else{
         bar.style.display='block';
-         barcon.style.color="white";
+         barcon.style.color="#402575";
     }
 })
 
