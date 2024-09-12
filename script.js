@@ -17,4 +17,21 @@ background.addEventListener('click',()=>{
     const background=document.getElementById('background')
         bar.style.display='none';
 })
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+    var exp = document.getElementById("Experience")
   
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Read more";
+      moreText.style.display = "none";
+            exp.style.height ="310px"
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Read less";
+      moreText.style.display = "inline";
+        exp.style.height ="500px"
+    }
+  }  

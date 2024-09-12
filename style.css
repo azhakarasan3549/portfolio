@@ -60,11 +60,12 @@ body{
    text-align: center;
    /* right: 10px; */
    /* margin-top: 10px; */
+   height: 40vh !important;
    z-index: 100;
    width: 100%;
    display: flex;
    flex-direction: column;
-   background-color: #ffffff9d;
+   background-color: #ffffffd3;
 }
 #bar{
     display: none;
@@ -76,10 +77,12 @@ body{
 #bar>ul>li{
     list-style-type:none ;
     width: 100%;
+    margin-top: 5%;
+    font-weight: 500;
 }
 #bar > ul >li>a{
     color: #402575;
-    transition-duration: 0.5s;
+    transition-duration: 0.8s;
 }
 #nav1{
     z-index: 99;
@@ -261,11 +264,36 @@ color: #f85307;
     color: #402575b4;
     margin-left: 12px;
  }
- /* @media  (min-width:1400px){
+ @media  (min-width:1400px){
     #Skill>div> h5{
         position: absolute;
-        end:100%;
-        !important;
+        right:60% !important;
     }
- } */
- 
+ }
+ #Experience{
+    margin-top: 15px !important; 
+    border: 2px solid white;
+    background-image: linear-gradient(to bottom, #280f5a82, #f5080069);
+     height: 310px; 
+     color: white;
+     overflow: scroll;
+ }
+ #more {
+    display: none;
+}
+#Experience >h3{
+    color: #FB773C;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+#myBtn{
+    margin-top: 10px;
+    background-color:#FB773C;;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#Experience>div{
+    margin-left: 15%;
+}
