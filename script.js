@@ -27,11 +27,13 @@ function myFunction() {
       dots.style.display = "inline";
       btnText.innerHTML = "Read more";
       moreText.style.display = "none";
-            exp.style.height ="310px"
+      exp.style.height ="310px"
+      exp.style.overflowY ="hidden"
     } else {
       dots.style.display = "none";
       btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
-        exp.style.height ="500px"
+      exp.style.height ="500px"
+      exp.style.overflowY ="scroll"
     }
   }  

@@ -207,7 +207,6 @@ color: #f85307;
     height: 265px;
     position: relative;
     padding-left: 30px;
-    border: 2px solid white;
  }
 .star{
     /* background-image: linear-gradient(to top left,#fffeff, #2d0d8c); */
@@ -247,7 +246,6 @@ color: #f85307;
     color: #40257544;
 }
 #Education{
- border: 2px solid white;
    background-color: #ff914d3a;
     height: 265px; 
  }
@@ -264,6 +262,14 @@ color: #f85307;
     color: #402575b4;
     margin-left: 12px;
  }
+ @media  (min-width:576px){
+    #Education{
+        border-left: 2px solid white;
+    }
+    #Skill{
+        border-right: 2px solid white;
+    }
+ }
  @media  (min-width:1400px){
     #Skill>div> h5{
         position: absolute;
@@ -271,12 +277,11 @@ color: #f85307;
     }
  }
  #Experience{
-    margin-top: 15px !important; 
-    border: 2px solid white;
-    background-image: linear-gradient(to bottom, #280f5a82, #f5080069);
-     height: 310px; 
+    margin-top: 24px !important; 
+    background-color: #280f5a;
      color: white;
-     overflow: scroll;
+     overflow: hidden;
+     scrollbar-width:thin;
  }
  #more {
     display: none;
@@ -287,13 +292,52 @@ color: #f85307;
     margin-top: 10px;
 }
 #myBtn{
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 15PX;
     background-color:#FB773C;;
     color: white;
-    padding: 10px;
+    padding: 8px;
     border: none;
     border-radius: 5px;
 }
 #Experience>div{
     margin-left: 15%;
 }
+@media  (max-width:576px){
+    #Experience>div{
+        margin-left: 12px;
+    }
+    #Experience >h3{
+        margin-left: 5px;
+    }
+}
+#Contact{
+    margin-top: 24px !important; 
+    border: 2px solid white;
+    height: 130px;
+     color: #280f5a;
+     overflow: hidden;
+     scrollbar-width:thin;
+ }
+ #Contact>div{
+    display: flex;
+ }
+ #Contact>div>span{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #FB773C;
+    margin-left: 30px;
+    display: flex;
+ }
+ #Contact>div>span>a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+ }
